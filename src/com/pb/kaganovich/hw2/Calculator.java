@@ -32,8 +32,8 @@ public class Calculator {
                 System.out.println(operand1 + " " + sign + " " + operand2 + " = " + (operand1 / operand2));
                 if (operand1 % operand2 != 0) {
                     System.out.println("Было выполнено округление...");
-                    break;
                 }
+                break;
             default:
                 System.out.println("Недопустимая операция " + sign);
         }
