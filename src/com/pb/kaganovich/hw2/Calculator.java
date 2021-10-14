@@ -35,7 +35,7 @@ public class Calculator {
                     break;
                 }
             default:
-                System.out.println("Недопустимая операция "+sign);
+                System.out.println("Недопустимая операция " + sign);
         }
     }
 }
