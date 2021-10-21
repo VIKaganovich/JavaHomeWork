@@ -41,6 +41,8 @@ public class Array {
         printArray(array);
         System.out.println("Итого в массиве " + posnum + " положительных чисел");
         System.out.println("Сумма чисел в массиве: " + sum);
+
+        //Сортировка
         boolean swap;
         for (int i = 1; i < array.length; i++) {
             swap = false;
