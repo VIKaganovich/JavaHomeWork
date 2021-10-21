@@ -2,6 +2,7 @@ package com.pb.kaganovich.hw3;
 
 import java.util.Scanner;
 
+
 public class Array {
     static void swapArrayElements(int[] arr, int i, int j) {
         int tmp;
