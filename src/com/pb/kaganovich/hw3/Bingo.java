@@ -12,6 +12,7 @@ public class Bingo {
         int attempts = 0;
         int x = 0;
         Scanner in = new Scanner(System.in);
+
         System.out.println("\"Бинго!\" Угадайте число от 0 до 100 (" + PRG_END + " для завершения)");
         do {
             if (attempts % 5 == 0)
@@ -42,7 +43,5 @@ public class Bingo {
             System.out.println("Бинго! Великолепно! Вы угадали число " + bingo + " с ПЕРВОЙ попытки!!!");
         else
             System.out.println("Бинго! Вы угадали число " + bingo + ", использовав " + attempts + " попыток");
-
-
     }
 }
