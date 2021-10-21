@@ -27,7 +27,7 @@ public class Array {
         int posnum = 0; // Счетчик положительных чисел
         int sum = 0; // Сумма чисел массива
         Scanner in = new Scanner(System.in);
-        System.out.println("\"Обработка целочисленного массив\"");
+        System.out.println("\"Обработка целочисленного массива\"");
         System.out.println("Введите массив из " + ARR_LENGTH + " чисел");
         for (int i = 0; i < array.length; i++) {
             System.out.print("Введите " + (i + 1) + " целое число: ");
