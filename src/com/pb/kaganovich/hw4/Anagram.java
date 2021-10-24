@@ -29,7 +29,7 @@ public class Anagram {
         char[] arrchar2 = ana2.replaceAll(regex, "").toCharArray();
 
         if (analyzeArrays(arrchar1, arrchar2))
-            System.out.println("Введенные фразы безусловно анаграмаммы");
+            System.out.println("Введенные фразы безусловно анаграммы");
         else
             System.out.println("Введенные фразы не являются анаграмамми");
     }
