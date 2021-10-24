@@ -20,13 +20,13 @@ public class Anagram {
         Scanner in = new Scanner(System.in);
         System.out.println("\"Проверка анаграмм.\" Введите 2 фразы для анализа");
         System.out.println("Введите 1ю фразу:");
-        ana1 = in.nextLine().toUpperCase();
+        ana1 = in.nextLine();
         System.out.println("Введите 2ю фразу:");
-        ana2 = in.nextLine().toUpperCase();
+        ana2 = in.nextLine();
 
         String regex = "[\\s!.;\\-—]"; //Не слова
-        char[] arrchar1 = ana1.replaceAll(regex, "").toCharArray();
-        char[] arrchar2 = ana2.replaceAll(regex, "").toCharArray();
+        char[] arrchar1 = ana1.toUpperCase().replaceAll(regex, "").toCharArray();
+        char[] arrchar2 = ana2.toUpperCase().replaceAll(regex, "").toCharArray();
 
         if (analyzeArrays(arrchar1, arrchar2))
             System.out.println("Введенные фразы безусловно анаграммы");
