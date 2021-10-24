@@ -31,6 +31,6 @@ public class Anagram {
         if (analyzeArrays(arrchar1, arrchar2))
             System.out.println("Введенные фразы безусловно анаграммы");
         else
-            System.out.println("Введенные фразы не являются анаграмамми");
+            System.out.println("Введенные фразы не являются анаграммами");
     }
 }
