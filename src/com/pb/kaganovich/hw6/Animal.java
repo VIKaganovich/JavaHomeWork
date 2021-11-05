@@ -22,6 +22,16 @@ public class Animal {
         return location;
     }
 
+    public static String checkAnimal(Animal animal) {
+        if (animal instanceof Cat)
+            return "Кот";
+        if (animal instanceof Dog)
+            return "Пес";
+        if (animal instanceof Horse)
+            return "Конь";
+        return "Неизвестное животное";
+    }
+
     public void makeNoise() {
         System.out.print("шумит");
     }
@@ -30,8 +40,8 @@ public class Animal {
         System.out.print("ест");
     }
 
-    public void sleep() {
-        System.out.print("спит");
+    public void sleep(Animal animal) {
+        System.out.print(checkAnimal(animal) + " спит");
     }
 
     @Override

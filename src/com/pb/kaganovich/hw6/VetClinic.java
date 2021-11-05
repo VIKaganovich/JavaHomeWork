@@ -1,7 +1,5 @@
 package com.pb.kaganovich.hw6;
 
-import java.lang.reflect.Constructor;
-
 /**
  * Класс вет. клиника
  */
