@@ -44,6 +44,8 @@ public class Horse extends Animal {
 
     @Override
     public String toString() {
-        return "Конь, проживающий в г." + getLocation() + ". Любимое питание: " + getFood() + ", тип подков: " + horseshoe;
+        // Вариант toString()
+        // return "Конь, проживающий в г." + getLocation() + ". Любимое питание: " + getFood() + ", тип подков: " + horseshoe;
+        return "Конь";
     }
 }

@@ -10,8 +10,18 @@ public class Veterinarian {
         this.name = name;
     }
 
+    public static String checkAnimal(Animal animal) {
+        if (animal instanceof Cat)
+            return "Кот";
+        if (animal instanceof Dog)
+            return "Пес";
+        if (animal instanceof Horse)
+            return "Конь";
+        return "Неизвестное животное";
+    }
+
     public void treatAnimal(Animal animal) {
-        System.out.println(Animal.checkAnimal(animal) + " из г." + animal.getLocation()
+        System.out.println(checkAnimal(animal) + " из г." + animal.getLocation()
                 + ", любимая пища " + animal.getFood());
     }
 

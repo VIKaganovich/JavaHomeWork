@@ -13,7 +13,7 @@ public class VetClinic {
 
         System.out.println("Поступающие пациенты:");
         for (Animal animal : animals) {
-            System.out.println(animal);
+            System.out.println(animal + " из г." + animal.getLocation());
         }
 
         Class clazz = Class.forName("com.pb.kaganovich.hw6.Veterinarian");

@@ -22,15 +22,7 @@ public class Animal {
         return location;
     }
 
-    public static String checkAnimal(Animal animal) {
-        if (animal instanceof Cat)
-            return "Кот";
-        if (animal instanceof Dog)
-            return "Пес";
-        if (animal instanceof Horse)
-            return "Конь";
-        return "Неизвестное животное";
-    }
+
 
     public void makeNoise() {
         System.out.print("шумит");
@@ -41,7 +33,7 @@ public class Animal {
     }
 
     public void sleep(Animal animal) {
-        System.out.print(checkAnimal(animal) + " спит");
+        System.out.print(animal + " спит");
     }
 
     @Override
@@ -55,5 +47,10 @@ public class Animal {
     @Override
     public int hashCode() {
         return Objects.hash(food, location);
+    }
+
+    @Override
+    public String toString() {
+        return "Животное";
     }
 }
