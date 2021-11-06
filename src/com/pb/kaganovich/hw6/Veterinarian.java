@@ -27,7 +27,7 @@ public class Veterinarian {
 
     public void treatAnimal(Animal animal) {
         System.out.println(checkAnimal(animal) + " из г." + animal.getLocation()
-                + ", любимая пища " + animal.getFood());
+                + ", употребляющий " + animal.getFood());
     }
 
     @Override
