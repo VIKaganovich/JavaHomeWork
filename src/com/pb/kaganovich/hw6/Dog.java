@@ -43,11 +43,10 @@ public class Dog extends Animal {
 
     @Override
     public String toString() {
-//  Вариант toString()
-//        if (hunt)
-//            return "Охотничий пес, проживающий в г." + getLocation() + ". Любимое питание: " + getFood();
-//        else
-//            return "Пес, проживающий в г." + getLocation() + ". Любимое питание: " + getFood();
-        return "Пес";
+        if (hunt)
+            return "Охотничий пес";
+        else
+            return "Пес";
+
     }
 }

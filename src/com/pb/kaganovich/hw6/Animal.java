@@ -32,8 +32,8 @@ public class Animal {
         System.out.print("ест");
     }
 
-    public void sleep(Animal animal) {
-        System.out.print(animal + " спит");
+    public void sleep() {
+        System.out.print(this + " спит");
     }
 
     @Override

@@ -43,8 +43,6 @@ public class Cat extends Animal {
 
     @Override
     public String toString() {
-        // вариант toString()
-        // return wool.replace(wool.charAt(0), Character.toUpperCase(wool.charAt(0))) + " кот, проживающий в г." + getLocation() + ". Любимое питание: " + getFood();
-        return "Кот";
+        return wool.replace(wool.charAt(0), Character.toUpperCase(wool.charAt(0))) + " кот";
     }
 }

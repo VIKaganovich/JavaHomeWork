@@ -10,6 +10,11 @@ public class Veterinarian {
         this.name = name;
     }
 
+    /**
+     * Ветеринар определяет животное
+     * @param animal неизвестное животное
+     * @return определенное животное
+     */
     public static String checkAnimal(Animal animal) {
         if (animal instanceof Cat)
             return "Кот";
