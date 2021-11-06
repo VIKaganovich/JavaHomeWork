@@ -24,11 +24,11 @@ public class Animal {
 
 
 
-    public void makeNoise() {
+    protected void makeNoise() {
         System.out.print("шумит");
     }
 
-    public void eat() {
+    protected void eat() {
         System.out.print("ест");
     }
 
