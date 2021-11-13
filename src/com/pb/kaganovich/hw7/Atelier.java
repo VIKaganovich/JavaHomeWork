@@ -103,22 +103,16 @@ public class Atelier {
 
     public static void dressMan(Clothes[] clothes) {
         System.out.println("Наша одежда для мужчин:");
-        for (Clothes cloth : clothes) {
-            if (cloth instanceof Skirt) continue;
-            if (cloth instanceof Tshirt) ((Tshirt) cloth).dressMan();
-            if (cloth instanceof Pants) ((Pants) cloth).dressMan();
-            if (cloth instanceof Tie) ((Tie) cloth).dressMan();
-        }
+        for (Clothes cloth : clothes)
+            if (cloth instanceof ManClothes) ((ManClothes) cloth).dressMan();
+
 
     }
 
     public static void dressWomen(Clothes[] clothes) {
         System.out.println("Наша одежда для женщин:");
         for (Clothes cloth : clothes) {
-            if (cloth instanceof Tie) continue;
-            if (cloth instanceof Tshirt) ((Tshirt) cloth).dressWomen();
-            if (cloth instanceof Pants) ((Pants) cloth).dressWomen();
-            if (cloth instanceof Skirt) ((Skirt) cloth).dressWomen();
+            if (cloth instanceof WomenClothes) ((WomenClothes) cloth).dressWomen();
         }
 
     }
