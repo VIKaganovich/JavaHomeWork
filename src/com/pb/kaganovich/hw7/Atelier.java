@@ -9,9 +9,9 @@ public class Atelier {
      * Класс одежда
      */
     abstract class Clothes {
-        protected Size size;
-        protected String color;
-        protected float price;
+        private Size size;
+        private String color;
+        private float price;
 
         public Clothes(Size size, String color, float price) {
             this.size = size;
