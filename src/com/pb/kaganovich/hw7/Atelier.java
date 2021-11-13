@@ -124,7 +124,7 @@ public class Atelier {
                 atelier.new Tshirt(Size.XXS, "черный", 15f),
                 atelier.new Pants(Size.S, "зеленый", 45.3f),
                 atelier.new Skirt(Size.XXS, "белый", 200f),
-                atelier.new Tie(Size.L, "красный", 2.2f),
+                atelier.new Tie(Size.L, "красный", 2.2f)
         };
         dressMan(clothes);
         System.out.println("---------------");
