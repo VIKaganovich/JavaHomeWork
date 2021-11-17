@@ -31,13 +31,14 @@ public class OnlineShop {
                 System.out.println(ex.getMessage());
             }
         }
-        while (true) {
+        int attempts = 0;
+        while (attempts < 3) {
             System.out.println("Авторизуемся...");
             System.out.print("Логин: ");
             login = in.nextLine();
             System.out.print("Пароль: ");
             password = in.nextLine();
-
+            attempts++;
             try {
                 auth.signIn(login, password);
                 break;
@@ -45,7 +46,10 @@ public class OnlineShop {
                 System.out.println("Неправильный логин или пароль");
             }
         }
-        System.out.println("Успешная авторизация");
+        if (attempts < 3)
+            System.out.println("Успешная авторизация");
+        else
+            System.out.println("Подобрать пароль не удалось");
 
     }
 }
