@@ -9,7 +9,7 @@ public class OnlineShop {
 
 
     public static void main(String[] args) {
-        String login, password, confirmpassword;
+        String login, password, confirmPassword;
         Auth auth = new Auth();
         Scanner in = new Scanner(System.in);
         System.out.println("\"Онлайн магазин (авторизация).\"");
@@ -22,10 +22,10 @@ public class OnlineShop {
             System.out.print("Пароль: ");
             password = in.nextLine();
             System.out.print("Подтверждение пароля: ");
-            confirmpassword = in.nextLine();
+            confirmPassword = in.nextLine();
 
             try {
-                auth.signUp(login, password, confirmpassword);
+                auth.signUp(login, password, confirmPassword);
                 break;
             } catch (WrongLoginException | WrongPasswordException ex) {
                 System.out.println(ex.getMessage());
