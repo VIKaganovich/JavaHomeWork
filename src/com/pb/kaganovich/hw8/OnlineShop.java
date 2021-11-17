@@ -38,11 +38,11 @@ public class OnlineShop {
             login = in.nextLine();
             System.out.print("Пароль: ");
             password = in.nextLine();
-            attempts++;
             try {
                 auth.signIn(login, password);
                 break;
             } catch (WrongLoginException | WrongPasswordException ex) {
+                attempts++;
                 System.out.println("Неправильный логин или пароль");
             }
         }
