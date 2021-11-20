@@ -1,41 +1,52 @@
-ноя 20, 2021 8:32:08 PM com.pb.kaganovich.hw9.FileNumbers main
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers main
 INFO: Начинаю обработку...
-ноя 20, 2021 8:32:09 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Метод createNumbersFile() стартует
-ноя 20, 2021 8:32:09 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
-SEVERE: Ошибка создания исходного файла 
-java.nio.file.NoSuchFileException: sr1c\com\pb\kaganovich\hw9\numbers.txt
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
-	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:434)
-	at java.nio.file.Files.newOutputStream(Files.java:216)
-	at java.nio.file.Files.newBufferedWriter(Files.java:2860)
-	at java.nio.file.Files.newBufferedWriter(Files.java:2896)
-	at com.pb.kaganovich.hw9.FileNumbers.createNumbersFile(FileNumbers.java:26)
-	at com.pb.kaganovich.hw9.FileNumbers.main(FileNumbers.java:81)
-
-ноя 20, 2021 8:32:09 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 1 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 2 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 3 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 4 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 5 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 6 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 7 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 8 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 9 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+INFO: Добавлена строка 10 в исходный файл
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Метод createNumbersFile() завершает работу 
-ноя 20, 2021 8:32:09 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
 INFO: Метод createOddNumbersFile() стартует
-ноя 20, 2021 8:32:09 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
-SEVERE: Ошибка обработки исходного файла 
-java.nio.file.NoSuchFileException: sr1c\com\pb\kaganovich\hw9\numbers.txt
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
-	at java.nio.file.Files.newByteChannel(Files.java:361)
-	at java.nio.file.Files.newByteChannel(Files.java:407)
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:384)
-	at java.nio.file.Files.newInputStream(Files.java:152)
-	at java.util.Scanner.<init>(Scanner.java:668)
-	at com.pb.kaganovich.hw9.FileNumbers.createOddNumbersFile(FileNumbers.java:49)
-	at com.pb.kaganovich.hw9.FileNumbers.main(FileNumbers.java:82)
-
-ноя 20, 2021 8:32:09 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 10 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 20 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 30 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 40 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 50 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 60 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 70 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 80 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 90 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 100 чисел
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
 INFO: Метод createOddNumbersFile() завершает работу 
-ноя 20, 2021 8:32:09 PM com.pb.kaganovich.hw9.FileNumbers main
+ноя 20, 2021 8:36:54 PM com.pb.kaganovich.hw9.FileNumbers main
 INFO: Обработка завершена.

@@ -1,32 +1,52 @@
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers main
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers main
 INFO: Начинаю обработку...
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Метод createNumbersFile() стартует
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 1 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 2 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 3 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 4 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 5 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 6 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 7 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 8 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 9 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Добавлена строка 10 в исходный файл
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createNumbersFile
 INFO: Метод createNumbersFile() завершает работу 
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
 INFO: Метод createOddNumbersFile() стартует
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 10 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 20 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 30 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 40 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 50 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 60 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 70 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 80 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 90 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
+INFO: В результирующий файл записано 100 чисел
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers createOddNumbersFile
 INFO: Метод createOddNumbersFile() завершает работу 
-ноя 20, 2021 8:35:13 PM com.pb.kaganovich.hw9.FileNumbers main
+ноя 20, 2021 8:37:02 PM com.pb.kaganovich.hw9.FileNumbers main
 INFO: Обработка завершена.
