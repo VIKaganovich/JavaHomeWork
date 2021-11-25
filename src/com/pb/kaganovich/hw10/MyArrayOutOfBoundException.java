@@ -1,7 +1,7 @@
 package com.pb.kaganovich.hw10;
 
 /**
- * Исключение неправильнрк обращение к массиву
+ * Исключение неправильное обращение к массиву
  */
 public class MyArrayOutOfBoundException extends Exception {
     public MyArrayOutOfBoundException() {
