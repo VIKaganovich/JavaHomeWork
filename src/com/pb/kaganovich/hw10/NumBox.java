@@ -21,7 +21,7 @@ public class NumBox<T extends Number> {
     }
 
     public T get(int index) throws MyArrayOutOfBoundException {
-        if (index >= length() || index < 0)
+        if (index < 0 || index >= length())
             throw new MyArrayOutOfBoundException("Неверный доступ к массиву");
         return numbers[index];
     }
