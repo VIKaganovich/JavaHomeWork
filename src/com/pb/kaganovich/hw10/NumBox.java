@@ -53,6 +53,7 @@ public class NumBox<T extends Number> {
             sum += numbers[i].doubleValue();
         return sum;
     }
+
     public double average() throws MyArrayOutOfBoundException {
         int len = length();
         if (len == 0)
