@@ -16,8 +16,7 @@ public class Main {
         System.out.println("\"Работа с массивами разных типов\"");
 
         System.out.println("Массив Float");
-        int realLength = rand.nextInt(SIZE_OF_ARRAY_FLOAT) + 1;
-        for (int i = 0; i < realLength; i++)
+        for (int i = 0; i < rand.nextInt(SIZE_OF_ARRAY_FLOAT) + 1; i++)
             try {
                 numBoxFloat.add(100 * rand.nextFloat());
                 System.out.print(numBoxFloat.get(i) + " ");
@@ -27,8 +26,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Массив Integer");
-        realLength = rand.nextInt(SIZE_OF_ARRAY_INT) + 1;
-        for (int i = 0; i < realLength; i++)
+        for (int i = 0; i < rand.nextInt(SIZE_OF_ARRAY_INT) + 1; i++)
             try {
                 numBoxInt.add(rand.nextInt(100));
                 System.out.print(numBoxInt.get(i) + " ");
