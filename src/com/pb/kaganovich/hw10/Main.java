@@ -3,7 +3,7 @@ package com.pb.kaganovich.hw10;
 import java.util.Random;
 
 /**
- * Класс Main - демонстрация работы
+ * Класс Main - демонстрация работы NumBox
  */
 public class Main {
     private static final int SIZE_OF_ARRAY_FLOAT = 10;
