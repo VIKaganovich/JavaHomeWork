@@ -6,17 +6,18 @@ import java.util.Random;
  * Класс Main - демонстрация работы
  */
 public class Main {
-    private static final int SIZEOFARRAYFLOAT = 6;
-    private static final int SIZEOFARRAYINT = 5;
+    private static final int SIZE_OF_ARRAY_FLOAT = 10;
+    private static final int SIZE_OF_ARRAY_INT = 10;
 
     public static void main(String[] args) {
-        NumBox<Float> numBoxFloat = new NumBox<>(SIZEOFARRAYFLOAT);
-        NumBox<Integer> numBoxInt = new NumBox<>(SIZEOFARRAYINT);
+        NumBox<Float> numBoxFloat = new NumBox<>(SIZE_OF_ARRAY_FLOAT);
+        NumBox<Integer> numBoxInt = new NumBox<>(SIZE_OF_ARRAY_INT);
         Random rand = new Random();
         System.out.println("\"Работа с массивами разных типов\"");
 
         System.out.println("Массив Float");
-        for (int i = 0; i < SIZEOFARRAYFLOAT; i++)
+        int realLength = rand.nextInt(SIZE_OF_ARRAY_FLOAT) + 1;
+        for (int i = 0; i < realLength; i++)
             try {
                 numBoxFloat.add(100 * rand.nextFloat());
                 System.out.print(numBoxFloat.get(i) + " ");
@@ -26,7 +27,8 @@ public class Main {
         System.out.println();
 
         System.out.println("Массив Integer");
-        for (int i = 0; i < SIZEOFARRAYINT; i++)
+        realLength = rand.nextInt(SIZE_OF_ARRAY_INT) + 1;
+        for (int i = 0; i < realLength; i++)
             try {
                 numBoxInt.add(rand.nextInt(100));
                 System.out.print(numBoxInt.get(i) + " ");
