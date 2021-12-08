@@ -1,0 +1,19 @@
+[ {
+  "Name" : "Иванов Андрей",
+  "Address" : "Киев",
+  "Phone numbers" : [ "0661234567", "0671234567" ],
+  "Birthday" : "1966-12-05",
+  "Last date of modification" : "2021-12-08T15:20:58.882"
+}, {
+  "Name" : "Петров Александр",
+  "Address" : "Париж",
+  "Phone numbers" : [ "0505551111", "0951212124", "0665432166" ],
+  "Birthday" : "2007-10-02",
+  "Last date of modification" : "2021-12-08T15:01:45.04"
+}, {
+  "Name" : "Сидоров Владимир",
+  "Address" : "Днепр",
+  "Phone numbers" : [ "0967575751", "0981414143" ],
+  "Birthday" : "1988-09-21",
+  "Last date of modification" : "2021-12-08T15:00:43.666"
+} ]
