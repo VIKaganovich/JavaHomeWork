@@ -17,7 +17,7 @@ public class ProducerConsumer {
     /**
      * Потребляет строки, печатая их на консоль
      */
-    static class StringConsumer implements Runnable {
+    public static class StringConsumer implements Runnable {
 
         private final ReentrantLock lock;
         private final Condition full;
@@ -64,9 +64,9 @@ public class ProducerConsumer {
     }
 
     /**
-     * Производит строки из 10 символов, исползуя случайные коды символов (1024-1123)
+     * Производит строки из 10 символов, используя случайные коды символов (1024-1123)
      */
-    static class StringProducer implements Runnable {
+     public static class StringProducer implements Runnable {
 
         private final ReentrantLock lock;
         private final Condition full;
