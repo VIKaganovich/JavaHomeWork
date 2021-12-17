@@ -1,7 +1,6 @@
 package com.pb.kaganovich.hw13;
 
 import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.locks.Condition;
@@ -124,7 +123,7 @@ public class ProducerConsumer {
         Condition full = lock.newCondition();
         Condition empty = lock.newCondition();
 
-        Deque<String> buffer = new ArrayDeque<>(MAX_BUFFER_SIZE);
+        Queue<String> buffer = new ArrayDeque<>(MAX_BUFFER_SIZE);
 
         Thread stringConsumer = new Thread(new StringConsumer(lock, full, empty, buffer));
         Thread stringProducer = new Thread(new StringProducer(lock, full, empty, buffer));
