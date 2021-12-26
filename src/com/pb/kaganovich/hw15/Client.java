@@ -77,7 +77,7 @@ public class Client implements Runnable {
         messageField.setToolTipText("Введите сообщение (exit для отключения)");
         panelUser.add(messageField);
 
-        // кнопка "Отпарвить"
+        // кнопка "Отправить"
         JButton button = new JButton("Отправить");
         button.setPreferredSize(new Dimension(100, 50));
         button.addActionListener(Client::actionPerformed);
